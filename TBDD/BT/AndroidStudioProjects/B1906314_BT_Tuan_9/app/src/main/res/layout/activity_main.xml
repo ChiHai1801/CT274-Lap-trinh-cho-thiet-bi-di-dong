@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="key"
+         />
+
+    <EditText
+        android:id="@+id/edtValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Value" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/edtReadKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="key" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read" />
+    
+    <TextView
+        android:id="@+id/tvReadValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        />
+
+    <Spinner
+        android:id="@+id/mySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/myCustomSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>

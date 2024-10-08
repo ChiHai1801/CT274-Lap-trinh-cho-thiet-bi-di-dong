@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg"
+    tools:context=".Quiz_Activity_4">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:text="Result" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ic_trophy" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="Hey, congratulation" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="Demo" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="Your score is 3 of 10" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="FINISH"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
